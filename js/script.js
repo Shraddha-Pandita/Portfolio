@@ -17,6 +17,12 @@ $(document).ready(function () {
 	$('.owl-carousel').owlCarousel({
 		loop: true,
 		items: 4,
+		autoplay: true,
+		autoplaySpeed: 200,
+		dots: true,
+		dotsContainer: '#dots',
+		nav: true,
+		dotsEach: true,
 		responsive: {
 			0: {
 				items: 1
@@ -31,7 +37,9 @@ $(document).ready(function () {
 				items: 4
 			}
 		}
+
 	});
+
 
 
 
